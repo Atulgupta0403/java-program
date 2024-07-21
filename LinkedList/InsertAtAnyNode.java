@@ -27,9 +27,12 @@ class InsertAtAnyNode {
         if(prev_node == null){
             System.out.println("prev_node can not contain null val.");
         }
-        Node newNode = new Node(newData);
-        newNode.next = prev_node.next;
-        prev_node.next = newNode;
+        else{
+
+            Node newNode = new Node(newData);
+            newNode.next = prev_node.next;
+            prev_node.next = newNode;
+        }
     }
     
     // displaying elements 
