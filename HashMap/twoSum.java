@@ -21,7 +21,7 @@ class twoSum {
         
         HashMap<Integer,Integer> hm = new HashMap<>();
         
-        int sum = 0;
+        
         int res[] = new int[2];
         
         
